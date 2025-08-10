@@ -1,0 +1,16 @@
+name: RedLightGreenLight
+main: me.squidgame.redlightgreenlight.RedLightGreenLight
+version: 1.3
+api-version: 1.19
+commands:
+  rlgl:
+    description: Red Light Green Light admin command.
+    usage: |
+      /rlgl <start|stop>
+      /rlgl track-movement <true|false>
+      /rlgl debug <true|false>
+    permission: rlgl.admin
+permissions:
+  rlgl.admin:
+    description: Allows access to all RLGL commands.
+    default: op

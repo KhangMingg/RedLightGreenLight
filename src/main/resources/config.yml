@@ -1,0 +1,17 @@
+# The name of the world where the game will take place.
+# Can be set in-game by an admin shift-right-clicking a block with a stone axe.
+# If blank, the server's default world will be used.
+playground-world: ""
+
+# How many seconds the "Green Light" phase should last.
+green-light-duration-seconds: 3
+# How many seconds the "Red Light" (movement tracking) phase should last.
+red-light-duration-seconds: 5
+# Delay in ticks (1 tick = 1/20th second) between Red Light display and movement tracking
+tracking-start-delay-ticks: 10
+
+# Playground mechanic: only track movement and kill player if they are in the playground
+# These coordinates are relative to the 'playground-world'.
+playground-first-point: 0 0 0 #you can use a stone axe with Left-Click to set this value
+playground-second-point: 0 0 0 #you can use a stone axe with Right-Click to set this value
+
